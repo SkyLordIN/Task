@@ -30,6 +30,7 @@ I Tested the following steps on Windows 11:
 ```
 * Open the Environment Variables to insert the JAVA_HOME variable:
 Setting up Environment Variables for OpenJDK
+
 Step 1: Access System Properties
 Right-click on This PC or Computer and select Properties.
 
