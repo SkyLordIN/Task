@@ -22,11 +22,11 @@ I Tested the following steps on Windows 11:
 * Installed Adopted Open JDK: You can download and install OpenJDK from the official website: https://adoptopenjdk.net/
 * To return where was the SDK installed: You can check the installation directory, usually C:\Program Files\AdoptOpenJDK\jdk-16
 ```bash
-    where java 
+ where java 
 ```
 * If you want to check the java version:
 ```bash
-       java -version
+java -version
 ```
 * Open the Environment Variables to insert the JAVA_HOME variable:
 Setting up Environment Variables for OpenJDK
@@ -51,11 +51,11 @@ Click OK to close all the windows.
 
 * You can check if it was set correctly running the command:
 ```bash
-    echo $JAVA_HOME
+echo $JAVA_HOME
 ```
 * It should return something like: 
 ```bash
-        C:\Program Files\AdoptOpenJDK\jdk-16
+C:\Program Files\AdoptOpenJDK\jdk-16
 ```
 
 ## Android Setup
