@@ -246,9 +246,9 @@ if you want to run this project:
 
 3- Run: npm i
 
-4- Download the android app and place it under app/android 
+4- Download the android app and place it under desired folder 
 
-5- npm run wdio
+5- npx wdio
 
 
 ### Extra Information
