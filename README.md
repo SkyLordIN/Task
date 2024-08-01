@@ -71,23 +71,26 @@ C:\Program Files\AdoptOpenJDK\jdk-16
     export PATH=$ANDROID_HOME/platform-tools:$PATH
     export PATH=$ANDROID_HOME/tools:$PATH
 ```
-* Source and apply the changes in the system:
-Open the System Properties to set the ANDROID_HOME environment variable:
+#### Setting up Environment Variables for Android SDK
 
-Right-click on "This PC" or "Computer" and select "Properties".
-Click on "Advanced system settings" on the left side.
-Click on "Environment Variables".
-Under "System Variables", scroll down and find the "New" button.
-Click on the "New" button to add a new variable.
-In the "Variable name" field, enter ANDROID_HOME.
-In the "Variable value" field, enter the path where you installed the Android SDK (e.g., C:\Users\[USER]\AppData\Local\Android\Sdk).
-Click "OK" to close all the windows.
-Update the PATH environment variable to include the tools and platform-tools folders:
+##### Step 1: Access System Properties
 
-In the "Environment Variables" window, scroll down and find the "Path" variable, then click "Edit".
-Click "New" and add the paths to the tools and platform-tools folders (e.g., C:\Users\[USER]\AppData\Local\Android\Sdk\tools and C:\Users\[USER]\AppData\Local\Android\Sdk\platform-tools).
-Click "OK" to close all the windows.
+1. Right-click on `This PC` or `Computer` and select `Properties`.
+2. Click on `Advanced system settings` on the left side.
+3. Click on `Environment Variables`.
 
+##### Step 2: Set ANDROID_HOME Environment Variable
+
+4. Under `System Variables`, scroll down and find the `New` button. Click on the `New` button to add a new variable.
+5. In the `Variable name` field, enter `ANDROID_HOME`.
+6. In the `Variable value` field, enter the path where you installed the Android SDK (e.g., `C:\Users[USER]\AppData\Local\Android\Sdk`).
+7. Click `OK` to close the window.
+
+##### Step 3: Update PATH Environment Variable
+
+8. In the `Environment Variables` window, scroll down and find the `Path` variable, then click `Edit`.
+9. Click `New` and add the paths to the `tools` and `platform-tools` folders (e.g., `C:\Users[USER]\AppData\Local\Android\Sdk\tools` and `C:\Users[USER]\AppData\Local\Android\Sdk\platform-tools`).
+10. Click `OK` to close all the windows.
 * You can check if it was set correctly running the command:
 ```bash
     echo %ANDROID_HOME%
