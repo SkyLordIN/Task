@@ -161,7 +161,6 @@ appium-doctor
 If you want Appium to work correctly, you need to download and have the android/ios driver in your system.
 Run the commands:
 ```bash 
-appium driver install xcuitest
 appium driver install uiautomator2
 ```
 Check the installed drivers using
