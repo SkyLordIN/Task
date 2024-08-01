@@ -1,0 +1,25 @@
+{
+  "name": "task_intel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.39.0",
+    "@wdio/appium-service": "^8.39.1",
+    "@wdio/cli": "^8.39.1",
+    "@wdio/cucumber-framework": "^8.39.0",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/spec-reporter": "^8.39.0",
+    "appium-uiautomator2-driver": "^3.7.4"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
