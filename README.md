@@ -48,10 +48,6 @@ In the Variable name field, enter JAVA_HOME. In the Variable value field, enter 
 
 Step 6: Save Changes
 Click OK to close all the windows. 
-* Enter the environment variable and save the vim session (:wq!):
-```bash
-    export JAVA_HOME=$(/usr/libexec/java_home)
-```
 
 * You can check if it was set correctly running the command:
 ```bash
