@@ -29,17 +29,24 @@ I Tested the following steps on Windows 11:
        java -version
 ```
 * Open the Environment Variables to insert the JAVA_HOME variable:
-Right-click on "This PC" or "Computer" and select "Properties".
-Click on "Advanced system settings" on the left side.
-Click on "Environment Variables".
-Under "System Variables", scroll down and find the "New" button.
-Click on the "New" button to add a new variable.
-In the "Variable name" field, enter JAVA_HOME.
-In the "Variable value" field, enter the path where you installed the OpenJDK (e.g. C:\Program Files\AdoptOpenJDK\jdk-16).
-Click "OK" to close all the windows.
-```bash
-    vim ~/.zshenv
-```
+Setting up Environment Variables for OpenJDK
+Step 1: Access System Properties
+Right-click on This PC or Computer and select Properties.
+
+Step 2: Access Advanced System Settings
+Click on Advanced system settings on the left side.
+
+Step 3: Access Environment Variables
+Click on Environment Variables.
+
+Step 4: Add a New System Variable
+Under System Variables, scroll down and find the New button. Click on the New button to add a new variable.
+
+Step 5: Configure the JAVA_HOME Variable
+In the Variable name field, enter JAVA_HOME. In the Variable value field, enter the path where you installed the OpenJDK (e.g. C:\Program Files\AdoptOpenJDK\jdk-16).
+
+Step 6: Save Changes
+Click OK to close all the windows. 
 * Enter the environment variable and save the vim session (:wq!):
 ```bash
     export JAVA_HOME=$(/usr/libexec/java_home)
