@@ -252,6 +252,17 @@ if you want to run this project:
 5- npx wdio
 
 
+### Security Remediations
+
+The following security vulnerabilities have been addressed via `overrides` in `package.json`:
+
+| CVE | Package | Severity | Fixed Version | Description |
+|-----|---------|----------|---------------|-------------|
+| CVE-2026-40175 | `axios` | Critical | `≥1.15.0` | SSRF / proxy bypass — cloud metadata exfiltration |
+| CVE-2026-34601 | `@xmldom/xmldom` | High | `≥0.9.9` / `≥0.8.12` | XML injection via unsafe CDATA serialization |
+
+Both overrides ensure all transitive copies of these packages resolve to patched versions.
+
 ### Extra Information
 
 * [UI Selectors (Android)](https://developer.android.com/reference/androidx/test/uiautomator/UiSelector)
